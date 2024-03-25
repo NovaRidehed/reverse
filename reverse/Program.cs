@@ -16,8 +16,6 @@ namespace reverse
         }
         public static void Reverse(int[] numbers)
         {
-            string[] neworder = new string[numbers.Length];
-
             for(int i = 0;i < numbers.Length/2; i++)
             {
                 int temp = numbers[i];
